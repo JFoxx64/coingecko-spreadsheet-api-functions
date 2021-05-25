@@ -29,7 +29,7 @@ function getCurrentPrice(coinname, market){
   }
   catch(err){
     Logger.log(err);
-    return "ERROR: You probably didn't do anything wrong, but check the docs for some info on what could cause this: "; 
+    return "ERROR: You probably didn't do anything wrong, but check the docs for some info on what could cause this: https://github.com/JFoxx64/coingecko-spreadsheet-api-functions/tree/main/Google%20Sheets"; 
   }
 }
 
