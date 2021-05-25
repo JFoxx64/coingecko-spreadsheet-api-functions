@@ -71,9 +71,9 @@ There are errors that we can control (Making sure the right coin id is typed and
 
 ### Troubleshooting
 
-* First off, make sure that the permissions were given to the App.  If they were not, than the function will not work.
+* First off, make sure that the permissions were given to the App.  If they were not, then the function will not work.
 * Next, make sure that you use the coin ID (as shown above).  The code tries to make it work if you use the coin name but that isn't always going to work.  It's much safer to use the ID.
-* Make sure that the market you select is a valid selection, below is a list of acceptable markets:
+* Make sure that the market you select is a valid selection, this is a list of acceptable markets:
   "btc",
   "eth",
   "ltc",
@@ -135,6 +135,6 @@ There are errors that we can control (Making sure the right coin id is typed and
   "xau",
   "bits",
   "sats"
-* Make sure that you are not calling the API more than 100 times in a minute.  If you have not changed any of the code and you selected anything from a minute or higher in the trigger interval, you should be fine.
+* Make sure that you are not calling the API more than 100 times in a minute.  If you have not changed any of the code and you selected anything from a minute or higher in the trigger interval, you *should* be fine.
 
 If your problem isn't resolved and you are doing all of that, then try refreshing again in a minute.  Or refresh a few times.  Sometimes it fails and throws an error number that I have no idea what it means or what is causing it.  Try, try again.
